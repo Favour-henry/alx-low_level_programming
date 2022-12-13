@@ -8,9 +8,9 @@
  *
  *   *
  *
- *    * Return: ALways 0 (Success)
+ *    * Return: Always 0 (Success)
  *
- */
+ *     */
 
 
 
@@ -22,13 +22,13 @@ int main(void)
 
 
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (x = 48; x < 58; x++)
+
+	{
 
 		putchar(x);
 
-	for (x = 'A'; x <= 'Z'; x++)
-
-		putchar(x);
+	}
 
 	putchar('\n');
 

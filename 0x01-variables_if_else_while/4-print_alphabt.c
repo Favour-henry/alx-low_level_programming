@@ -4,11 +4,11 @@
 
 /**
  *
- *  * main - Entry point
+ *  *main - Entry point
  *
  *   *
  *
- *    * Return: ALways 0 (Success)
+ *    * Return: 0 (Success)
  *
  */
 
@@ -18,17 +18,17 @@ int main(void)
 
 {
 
-	int x;
-
-
+	char x;
 
 	for (x = 'a'; x <= 'z'; x++)
 
-		putchar(x);
+	{
 
-	for (x = 'A'; x <= 'Z'; x++)
+		if (x != 'e' && x != 'q')
 
-		putchar(x);
+			putchar(x);
+
+	}
 
 	putchar('\n');
 
