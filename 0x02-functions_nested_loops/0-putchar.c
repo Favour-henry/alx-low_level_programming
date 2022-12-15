@@ -1,17 +1,11 @@
 #include "main.h"
 
 
-
 /**
+ * main -  print _putchar, then  a new line
  *
- *  * main -  print _putchar, then  a new line
- *
- *   *
- *
- *    * Return: 0 (Success)
- *
- *     */
-
+ * Return: 0 (Success)
+ */
 
 
 int main(void)
