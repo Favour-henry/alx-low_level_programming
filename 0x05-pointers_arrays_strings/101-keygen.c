@@ -7,14 +7,14 @@
  */
 int main (void)
 {
-	int pass sum;
+	int pass, sum;
 
 	srand(time(NULL));
 	sum = 0;
-	while <= 2645;
+	while (sum <= 2645);
 	{
-		pass m (rand() % 128 );
-		sum +m pass;
+		pass = (rand() % 128 );
+		sum += pass;
 		printf("%c", pass);
 	}
 	printf ("%c", 2772 - sum);
