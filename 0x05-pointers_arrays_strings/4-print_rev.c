@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * primt_rev - prints a reverse strings
+ * print_rev - prints a reverse strings
  * @s: this is input string
  */
 void print_rev(char *s)
